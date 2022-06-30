@@ -77,7 +77,7 @@ Necesidad del negocio: Dar una charla de BDD
 
 <!-- _class: lead -->
 
-```
+```gherkin
 Feature: Account operations
 
   Scenario: Extract money from account
