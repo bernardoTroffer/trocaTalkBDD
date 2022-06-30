@@ -14,9 +14,54 @@ _paginate: false
 ---
 
 ## Que es BDD?
+Dan North: 
+BDD is a second-generation, outside-in, pull-based, multiple-stakeholder, multiple-scale, high-automation, agile methodology. It describes a cycle of interactions with well-defined outputs, resulting in the delivery of working, tested software that matters. 
+
+![bg right](https://1.bp.blogspot.com/_7rvcxWUYlQs/S4ETz6bab4I/AAAAAAAAAB4/NhLGDbqpyU4/s1600/BDD-Mindmap.png)
+
+---
+
 ## Que no es BDD?
+
+BDD no es E2E testing
+
+---
+
 ## Cómo se vincula con TDD?
+
+TDD (Test Driven Development): 
+  * Visión del programador
+  * Una aproximacion de bajo nivel
+  * Verifica si la implemenatcion de la funcionalidad es correcta
+
+BDD (Behavior Driven Development)
+  * Visión del cliente 
+  * Una aproximación desde el punto de vista del usuario 
+  * Verifica si la aplicación se comporta como el usuario quiere que se comporte
+
+![bg right](https://netmind.net/es/wp-content/uploads/2021/03/3-1.png)
+
+
+---
+
 ## Cual la historia?
+
+<dl>
+<dt>2003</dt>
+<dd> Dan North crea JBehave. Comenzó como un experimento para ver como podría haber sido JUnit si se hubiera concebido desde un principio como una herramienta para hacer TDD
+ </dd>
+
+<dt>2005</dt>
+<dd> Algunas ideas de JBehave fueron incorporadas por Dave Astels en RSpec</dd>
+
+<dt>2007</dt>
+<dd> Dan North inspirado por el la tracción generada por RSpec crea RBehave, el cual trae como novedad la posibilidad de especificar comportamiento en texto plano, idea que luego daría origen a lo que en la actualidad se conoce como sintaxis Gherkin</dd>
+
+<dt>2008</dt>
+<dd> Reescriben completamente desde cero JBehave incorporan soporte para especificaciones en texto plano </dd>
+
+<dt>2008</dt>
+<dd> Nace Cucumber como remplozo del motor de especificaciones de RSpec. Se estandariza la sintaxis de especificacion de texto plano, y se la bautizó como Gherkin  </dd>
 
 --- 
 
@@ -31,7 +76,7 @@ _paginate: false
 En papel...
 Luego ir a codear los tests de una
 
-![bg right](https://learnenglishteens.britishcouncil.org/sites/teens/files/rs261_157781379-low.jpg)
+![bg right](https://learnenglishteens.britishcouncil.org/sites/teens/files/rs261_157781379-low.jpg )
 
 ---
  
