@@ -139,6 +139,14 @@ Feature: Account operations
 
 ---
 
+<!-- _class: lead -->
+
+Fit:
+
+![](http://fit.c2.com/files/WelcomeVisitors/example.gif)
+
+---
+
 ### Cómo se organiza una especificación en Gherkin?
 
 **Feature:**
@@ -166,8 +174,8 @@ Una postcondición que debe cumplirse luego de realizar la acción.
 ---
  
 Puntos a tener en cuenta: 
-- Usar lenguaje ubicuo
-- Descripciones cortas y consisas
+- Usar lenguaje ~~ubicuo~~ fácil de entender
+- Descripciones lo más cortas posibles. Que sean realmente consisas y que vayan al punto del asunto sin dar vueltas. Tienen que entrar en un renglón.
 - Reutilizar steps
 
 ---
@@ -180,6 +188,36 @@ Puntos a tener en cuenta:
 
 ### Cómo automatizar una especificación?
  
+## Herramientas:
+
+- Cucumber
+- Behat
+
+---
+
+<!-- _class: lead
+_header: "Cómo automatizar una especificación?" -->
+
+![bg](https://media-exp1.licdn.com/dms/image/C5612AQG85ZZKxjFiGQ/article-inline_image-shrink_1500_2232/0/1598878657949?e=1659571200&v=beta&t=yXqt29NKWxkdj6mEwKSdqEs1x9ITsL58uIrhXuu2QLU)
+
+---
+
+<!-- _class: lead
+_header: "Cómo automatizar una especificación?" -->
+
+
+![bg](https://media-exp1.licdn.com/dms/image/C5612AQG85ZZKxjFiGQ/article-inline_image-shrink_1500_2232/0/1598878657949?e=1659571200&v=beta&t=yXqt29NKWxkdj6mEwKSdqEs1x9ITsL58uIrhXuu2QLU)
+![w:750 opacity:.5](https://www.nicepng.com/png/full/14-145192_red-circle-with-line-png-clipart-library-library.png)
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+---
+
 - que herramientas hay?  (Cucumber, Behat, ...)
 - cómo funciona?
 
@@ -189,11 +227,12 @@ Puntos a tener en cuenta:
  
 - setup del proyecto
 - escribir el primer escenario
-- definir un feature context
+- definir un los steps
 - hacer pasar el test
 - escribir otro escenario
+- definir un los steps
 - hacer pasar el test
-- profit
+- profit...
 
 ---
 
@@ -209,12 +248,15 @@ Puntos a tener en cuenta:
 
 ## Más material
 
-- Specification by example
+- Cucumber framework: [cucumber.io/docs/guides/overview/](https://cucumber.io/docs/guides/overview/)
+  - cucumber-js: [github.com/cucumber/cucumber-js](https://github.com/cucumber/cucumber-js)
+- Behat framework: [docs.behat.org/en/latest/](https://docs.behat.org/en/latest/)
+
+- Specification by example: [bib.convdocs.org/v1856/?download=file](https://bib.convdocs.org/v1856/?download=file)
+
 
 ---
 
-# TODO
+<!-- _class: lead -->
 
-- Responder las preguntas
-- El código del ejemplo
-- Slides con material de soporte
+# Preguntas?
