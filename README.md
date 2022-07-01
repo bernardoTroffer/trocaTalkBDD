@@ -15,33 +15,15 @@ _backgroundColor: #D76B00
 
 ---
 
-## Cual la historia?
-
-2003
-* Dan North crea JBehave. Comenzó como un experimento para ver como podría haber sido JUnit si se hubiera concebido desde un principio como una herramienta para hacer TDD
-
-2005
-* Algunas ideas de JBehave fueron incorporadas por Dave Astels en RSpec
-
-----
-
-2007
-* Dan North inspirado por el la tracción generada por RSpec crea RBehave, el cual trae como novedad la posibilidad de especificar comportamiento en texto plano, idea que luego daría origen a lo que en la actualidad se conoce como sintaxis Gherkin
-
-
-2008
-* Reescriben completamente desde cero JBehave incorporan soporte para especificaciones en texto plano 
-
----
-
-2008
-* Nace Cucumber como remplozo del motor de especificaciones de RSpec. Se estandariza la sintaxis de especificacion de texto plano, y se la bautizó como Gherkin
-
----
+<!-- _class: lead invert
+_backgroundColor: #D76B00 -->
 
 ## Qué es BDD?
-Dan North:\
-BDD is a second-generation, outside-in, pull-based, multiple-stakeholder, multiple-scale, high-automation, agile methodology. It describes a cycle of interactions with well-defined outputs, resulting in the delivery of working, tested software that matters. 
+
+---
+<!-- _header: "Qué es BDD?" -->
+
+BDD es una metodología ágil de segunda generación, outside-in, pull-based, multiple-stakeholder, de múltiples escalas, de alta automatización. Describe un ciclo de interacciones con resultados bien definidos, lo que da como resultado la entrega de un software funcional y probado
 
 ---
 <!-- _header: "Qué es BDD?" -->
@@ -50,26 +32,47 @@ BDD is a second-generation, outside-in, pull-based, multiple-stakeholder, multip
 
 ---
 
-## Qué no es BDD?
 
-BDD no es E2E testing
+<!-- _class: lead invert
+_backgroundColor: #D76B00 -->
+
+## Cual la historia?
 
 ---
 
+2003
+* Dan North crea JBehave
+
+2005
+* Se inicia el desarrollo de RSpec incorporando las ideas de JBehave
+
+2007
+* Dan North crea RBehave, el cual trae como novedad la posibilidad de especificar comportamiento en texto plano
+----
+
+2008
+* Nace Cucumber como remplazo del motor de especificaciones de RSpec. Se crea Gherkin
+
+---
+
+<!-- _class: lead invert
+_backgroundColor: #D76B00 -->
+
 ## Cómo se vincula con TDD?
+
+---
+
+![bg width:750px](https://netmind.net/es/wp-content/uploads/2021/03/3-1.png)
+
+---
+
+<!-- _header: "Cómo se vincula con TDD?" -->
 
 | TDD | BDD |
 |--------|--------|
 | Visión del programador | Visión del cliente  |
 | Una aproximacion de bajo nivel   | Una aproximación desde el punto de vista del usuario     |
 | Verifica si la implemenatcion de la funcionalidad es correcta    | Verifica si la aplicación se comporta como el usuario quiere que se comporte  |
-
-
----
-
-<!-- _header: "Cómo se vincula con TDD?" -->
-
-![bg width:800px](https://netmind.net/es/wp-content/uploads/2021/03/3-1.png)
 
 
 --- 
