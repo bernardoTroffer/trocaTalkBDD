@@ -1,5 +1,5 @@
 <!--
-theme: gaia
+theme: g4i4
 footer: /* Behavior Driven Development */
 paginate: true
 backgroundColor: white
